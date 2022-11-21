@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class CashbackHackServiceTest {
 
-        private CashbackHackService service = new CashbackHackService();
+        public CashbackHackService service = new CashbackHackService();
 
         @Test
         public void shouldCalculateWhenOneHundredRubleLackToThousand(){
